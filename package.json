@@ -4,7 +4,8 @@
   "description": "Oficina Quero Ser Dev para iniciantes em programação",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "test:coverage":"npx jest --coverage"
   },
   "devDependencies": {
     "jest": "^29.5.0"
